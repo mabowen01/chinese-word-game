@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Word Matching Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Chinese Word Matching Game</h1>
+        <div id="game-info">
+            <div id="level-info">Level: <span id="level">1</span></div>
+            <div id="health-info">
+                Health: 
+                <img src="assets/heart.png" class="health-icon" alt="Health 1">
+                <img src="assets/heart.png" class="health-icon" alt="Health 2">
+                <img src="assets/heart.png" class="health-icon" alt="Health 3">
+                <img src="assets/heart.png" class="health-icon" alt="Health 4">
+            </div>
+            <div id="score-info">
+                Score: <span id="score">0</span>
+                <img src="assets/star.png" class="star-icon" alt="Star">
+            </div>
+        </div>
+        <div class="word-grid">
+            <div class="chinese-words">
+                <!-- Chinese words will be inserted here -->
+            </div>
+            <div class="english-words">
+                <!-- English translations will be inserted here -->
+            </div>
+        </div>
+        <button id="check-matches">Check Matches</button>
+        <div id="result"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
